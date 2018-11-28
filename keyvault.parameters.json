@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "keyVaultName": {
+            "value": "testVault"
+        },
+        "tenantId": {
+            "value": "0d18a228-d70f-478d-bff6-458bb377418b"
+        },
+        "accessPolicies": {
+            "value": [
+                {
+                    "tenantId": "0d18a228-d70f-478d-bff6-458bb377418b",
+                    "objectId": "cdfcfbf1-0f08-40ad-8941-f9249515ff32",
+                    "permissions": {
+                        "keys": ["all"],
+                        "secrets": ["all"]
+                    }
+                },
+                {
+                    "tenantId": "0d18a228-d70f-478d-bff6-458bb377418b",
+                    "objectId": "cdfcfbf1-0f08-40ad-8941-f9249515ff32",
+                    "permissions": {
+                        "keys": ["all"],
+                        "secrets": ["all"]
+                    }  
+                }
+            ]
+        },
+
+        "secretsObject": {
+            "value": {
+                "secrets": [						
+                    {
+                        "secretName": "admin123",
+                        "secretValue": "Password@321"
+                    },
+                    {
+                        "secretName": "admin123",
+                        "secretValue": "Password@321"
+                    }
+                ]
+            }
+        }
+    }
+}
