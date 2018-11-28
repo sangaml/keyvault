@@ -8,7 +8,7 @@
     "adminPassword": {
         "reference": {
            "keyVault": {
-             "id":  "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testcass/providers/Microsoft.KeyVault/vaults/sangam"
+             "id":  "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/test/providers/Microsoft.KeyVault/vaults/sangam"
              },
            "secretName":  "admin123"
         }
