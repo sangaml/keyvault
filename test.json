@@ -20,12 +20,6 @@
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
     },
-    "dnsLabelPrefix2": {
-        "type": "string",
-        "metadata": {
-          "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
-        }
-      },
     "rhelOSVersion": {
       "type": "string",
       "defaultValue": "7.4",
