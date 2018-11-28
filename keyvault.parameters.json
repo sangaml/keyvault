@@ -37,7 +37,7 @@
                         "secretValue": "Password@321"
                     },
                     {
-                        "secretName": "admin123",
+                        "secretName": "admin321",
                         "secretValue": "Password@321"
                     }
                 ]
