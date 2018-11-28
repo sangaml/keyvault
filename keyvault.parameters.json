@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "keyVaultName": {
-            "value": "testkey"
+            "value": "sangamtest"
         },
         "tenantId": {
             "value": "0d18a228-d70f-478d-bff6-458bb377418b"
