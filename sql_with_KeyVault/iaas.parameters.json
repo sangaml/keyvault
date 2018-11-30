@@ -63,7 +63,7 @@
             "value": "admin123"
         },
         "sqlAkvUrl": {
-            "value": "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testing/providers/Microsoft.KeyVault/vaults/sangamtest"
+            "value": "https://sangamtest.vault.azure.net/"
         },
         "servicePrincipalName": {
             "value": "5748c552-2008-4285-aa65-4a0cd6ea8d84"
