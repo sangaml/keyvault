@@ -3,28 +3,28 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualMachineName": {
-            "value": "GEN-UNIQUE"
+            "value": "sqlwithkey"
         },
         "virtualMachineSize": {
             "value": "Standard_DS4"
         },
         "adminUsername": {
-            "value": "GEN-UNIQUE"
+            "value": "Password@123"
         },
         "storageAccountType": {
             "value": "Premium_LRS"
         },
         "networkInterfaceName": {
-            "value": "GEN-UNIQUE-13"
+            "value": "keynic"
         },
         "networkSecurityGroupName": {
-            "value": "GEN-UNIQUE-13"
+            "value": "keynsg"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Password@123"
         },
         "virtualNetworkName": {
-            "value": "GEN-UNIQUE-13"
+            "value": "keyvnet"
         },
         "addressPrefix": {
             "value": "10.0.0.0/16"
@@ -36,7 +36,7 @@
             "value": "10.0.0.0/24"
         },
         "publicIpAddressName": {
-            "value": "GEN-UNIQUE-13"
+            "value": "mypipkey"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -54,22 +54,22 @@
             "value": "GENERAL"
         },
         "sqlAuthenticationLogin": {
-            "value": "GEN-UNIQUE"
+            "value": "admin"
         },
         "sqlAuthenticationPassword": {
-            "value": "GEN-UNIQUE"
+            "value": "Password@123"
         },
         "sqlAkvCredentialName":{
-            "value": "GEN-UNIQUE"
+            "value": "admin123"
         },
         "sqlAkvUrl": {
-            "value": "GEN-UNIQUE"
+            "value": "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testing/providers/Microsoft.KeyVault/vaults/sangamtest"
         },
         "servicePrincipalName": {
-            "value": "GEN-UNIQUE"
+            "value": "5748c552-2008-4285-aa65-4a0cd6ea8d84"
         },
         "servicePrincipalSecret": {
-            "value": "GEN-UNIQUE"
+            "value": "+/Q/]@?|I>:7&]p.yi_K@-+_cpEa!"
         }
     }
 }
