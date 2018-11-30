@@ -60,7 +60,7 @@
             "value": "Password@123"
         },
         "sqlAkvCredentialName":{
-            "value": "sangamtest"
+            "value": "admin123"
         },
         "sqlAkvUrl": {
             "value": "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testing/providers/Microsoft.KeyVault/vaults/sangamtest"
