@@ -212,7 +212,9 @@
           "osDisk": {
             "name": "[concat(parameters('virtualMachineName'), '_OSDisk')]",  
             "createOption": "FromImage",
-            "storageAccountType": "[parameters('storageAccountType')]"
+            "managedDisk": {
+              "storageAccountType": "[parameters('storageAccountType')]"
+          },
           },
           "dataDisks": [
             {
