@@ -13,7 +13,7 @@
       "metadata": {
         "description": "SQL Server Virtual Machine Size"
       },
-      "defaultValue": "Standard_DS1"
+      "defaultValue": "Standard_B2s"
     },
     "adminUsername": {
       "type": "string",
