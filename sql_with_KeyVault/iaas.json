@@ -13,7 +13,7 @@
       "metadata": {
         "description": "SQL Server Virtual Machine Size"
       },
-      "defaultValue": "Standard_B2s"
+      "defaultValue": "Standard_DS1"
     },
     "adminUsername": {
       "type": "string",
@@ -195,30 +195,33 @@
         "storageProfile": {
           "imageReference": {
             "publisher": "MicrosoftSQLServer",
-            "offer": "SQL2014SP1-WS2012R2",
+            "offer": "SQL2016SP1-WS2016",
             "sku": "Enterprise",
             "version": "latest"
           },
           "osDisk": {
+            "osType": "Windows",
             "name": "[concat(parameters('virtualMachineName'), '_OSDisk')]",  
             "createOption": "FromImage",
+            "caching": "ReadWrite",
             "managedDisk": {
               "storageAccountType": "[parameters('storageAccountType')]"
-             }
           },
+          "diskSizeGB": 127
+        },
           "dataDisks": [
             {
               "name": "[concat(parameters('virtualMachineName'), '_DataDisk-1')]",
               "createOption": "Empty",
               "lun": 0,
-              "diskSizeGB": 100,
+              "diskSizeGB": 1023,
               "caching": "ReadOnly"
             },
             {
               "name": "[concat(parameters('virtualMachineName'), '_DataDisk-2')]",
               "createOption": "Empty",
               "lun": 1,
-              "diskSizeGB": 100,
+              "diskSizeGB": 1023,
               "caching": "ReadOnly"
             }
           ]
@@ -277,7 +280,7 @@
         },
         "parameters": {
           "sqlVMName": {
-            "value": "sqlwithkey"
+            "value": "[parameters('virtualMachineName')]"
           },
           "location": {
             "value": "[parameters('location')]"
