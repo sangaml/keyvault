@@ -285,7 +285,7 @@
         },
         "parameters": {
           "sqlVMName": {
-            "value": "[parameters('virtualMachineName')]"
+            "value": "sqlwithkey"
           },
           "location": {
             "value": "[parameters('location')]"
