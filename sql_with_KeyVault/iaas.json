@@ -211,14 +211,14 @@
               "name": "[concat(parameters('virtualMachineName'), '_DataDisk-1')]",
               "createOption": "Empty",
               "lun": 0,
-              "diskSizeGB": 1023,
+              "diskSizeGB": 100,
               "caching": "ReadOnly"
             },
             {
               "name": "[concat(parameters('virtualMachineName'), '_DataDisk-2')]",
               "createOption": "Empty",
               "lun": 1,
-              "diskSizeGB": 1023,
+              "diskSizeGB": 100,
               "caching": "ReadOnly"
             }
           ]
