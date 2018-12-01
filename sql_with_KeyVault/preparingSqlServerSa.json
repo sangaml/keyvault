@@ -10,37 +10,48 @@
       "defaultValue": "[resourceGroup().location]"
     },
     "adminUsername": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "admin123"
     },
     "adminPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "defaultValue": "Password@123"
     },
     "sqlUsername": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "admin123"
     },
     "sqlPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "defaultValue": "Password@123"
     },
     "disksCount": {
-      "type": "int"
+      "type": "int",
+      "defaultValue": "1"
     },
     "diskSizeInGB": {
-      "type": "int"
+      "type": "int",
+      "defaultValue": "120"
     },
     "sqlEnginePort": {
-      "type": "int"
+      "type": "int",
+      "defaultValue": "1433"
     },
     "workloadType": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "GENERAL"
     },
     "connectionType": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "Public"
     },
     "sqlVMPrepareModulesURL": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "https://raw.githubusercontent.com/sangaml/keyvault/master/sql_with_KeyVault/PrepareSqlServer.ps1.zip"
     },
     "sqlVMPrepareConfigurationFunction": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "PrepareSqlServerSa.ps1\\PrepareSqlServerSa"
     }
   },
   "resources": [
