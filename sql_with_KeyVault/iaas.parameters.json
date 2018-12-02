@@ -6,7 +6,7 @@
             "value": "sqlwithkey"
         },
         "virtualMachineSize": {
-            "value": "Standard_DS4"
+            "value": "Standard_B2s"
         },
         "adminUsername": {
             "value": "Password@123"
