@@ -9,7 +9,7 @@
             "value": "Standard_B2s"
         },
         "adminUsername": {
-            "value": "Password@123"
+            "value": "admin123"
         },
         "networkInterfaceName": {
             "value": "keynic"
