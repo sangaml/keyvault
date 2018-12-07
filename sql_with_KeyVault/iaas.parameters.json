@@ -54,7 +54,12 @@
             "value": "admin"
         },
         "sqlAuthenticationPassword": {
-            "value": "Password@123"
+            "reference": {
+               "keyVault": {
+                 "id":  "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testing/providers/Microsoft.KeyVault/vaults/sangamtest"
+                 },
+               "secretName":  "admin123"
+            }
         },
         "sqlAkvCredentialName":{
             "value": "admin123"
