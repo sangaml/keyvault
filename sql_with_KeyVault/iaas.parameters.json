@@ -58,7 +58,7 @@
                "keyVault": {
                  "id":  "/subscriptions/dfe49495-dc73-47ef-abf8-bdfdced9919e/resourceGroups/testing/providers/Microsoft.KeyVault/vaults/sangamtest"
                  },
-               "secretName":  "admin123"
+               "secretName":  "admin321"
             }
         },
         "sqlAkvCredentialName":{
