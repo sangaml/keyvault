@@ -62,7 +62,7 @@
             }
         },
         "sqlAkvCredentialName":{
-            "value": "admin123"
+            "value": "admin321"
         },
         "sqlAkvUrl": {
             "value": "https://sangamtest.vault.azure.net/"
